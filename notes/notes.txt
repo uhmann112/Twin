@@ -1,0 +1,79 @@
+**Projektidee: Twin – Web & Mobile App**
+
+**Grundidee:**
+Twin ist eine minimalistische Web-App (später auch mobil), die Menschen durch "Zufall" verbindet. Nutzer beantworten täglich eine kurze Frage oder schreiben einen Satz. Wenn jemand in der Nähe (z. B. im Umkreis von 5 km) zufällig genau dasselbe geschrieben hat, wird diese Person als "Twin" vorgeschlagen. Beide können dann miteinander chatten.
+
+**Psychologischer Hintergrund & Motivation:**
+Die App nutzt den Effekt von Pareidolie (Sinnsuche im Zufall), Aberglauben und die TikTok-geschulte Erwartung von "Zeichen" aus. Viele Nutzer glauben, dass bestimmte Dinge "Schicksal" oder "Zeichen des Universums" sind – genau hier setzt Twin an.
+
+**Kernfeatures:**
+- Täglich wechselnde Eingabeaufforderung (z. B. "Was fühlst du heute?", "Was willst du vergessen?", "Schreib den ersten Satz, der dir in den Kopf kommt")
+- Textvergleich mit anderen Nutzern im Umkreis
+- Wenn Übereinstimmung: Match + Öffnung eines Chats
+- Optional: Verlauf anonymisiert sichtbar machen ("Letzte 7 Matches")
+- Kein Like-System, keine Profile – Fokus auf den Moment
+
+**Technisches Ziel:**
+- Als Web-App in React oder Next.js starten
+- Mobile-ready (PWA oder später als native App mit Expo/React Native)
+- Datenbank z. B. über Firebase
+- Ortungsfunktion via Geolocation API
+
+**Designansatz:**
+- Ruhiges, mystisches Design (dunkel, mit Lichtakzenten)
+- Fokus auf Emotionen & Atmosphäre statt Funktionalität
+- Schriftarten und Micro-Animationen, die Neugier und Verbundenheit triggern
+
+**Risiken & Chancen:**
+- *Risiko:* Missbrauch durch Trolle oder unangemessene Inhalte
+- *Chance:* Viralität durch TikTok, wenn "magische Zufälle" geteilt werden
+
+**Monetarisierungsidee:**
+- Optional: Premium-Features wie mehr Rückblicke, Standort erweitern, mehr Fragen/Antworten pro Tag
+- Später: Mood-based Werbung oder Sponsoring (z. B. Wellness, Spirituelles)
+
+**To-Do Liste (in sinnvoller Reihenfolge):**
+
+1. **Idee konkretisieren & absichern**
+   - Fragenkatalog mit mindestens 30 Prompts vorbereiten
+   - Liste deutscher Schimpfwörter recherchieren & aufbereiten
+   - Zielgruppenverhalten analysieren (z. B. TikTok-Trends)
+
+2. **Technische Planung**
+   - Tech-Stack festlegen (Frontend, Backend, Hosting)
+   - Firebase-Projekt erstellen (Auth, DB, Hosting)
+   - Geolocation-Konzept definieren (z. B. Umkreis-Filterung)
+
+3. **Erster MVP (Minimum Viable Product)**
+   - Eingabefeld + Frageanzeige (Daily Prompt)
+   - Textverarbeitung + Content-Filter (Blacklist lokal)
+   - Matching-Logik (exakte Übereinstimmung + Standortradius)
+   - Anzeige eines Matches ("Du hast einen Twin")
+   - Einfacher Chat (Realtime DB oder Firestore)
+
+4. **Design & UX/UI**
+   - Moodboard + Farbschema erstellen
+   - UI-Komponenten gestalten (Frage-Card, Match-Overlay, Chat-View)
+   - Erste Prototyp-Screens in Figma bauen (optional)
+
+5. **Sicherheit & Community-Schutz**
+   - Content-Filter (Blacklist + Sonderzeichen-Prüfung)
+   - Begrenzung auf 1 Eingabe pro Tag
+   - Meldesystem implementieren (z. B. "Chat melden")
+   - Optional: Ghost-Banning für auffällige Nutzer
+
+6. **Testing & Feedback**
+   - Erste Testnutzer einladen (Freunde oder Discord)
+   - Feedback zu Usability & Match-Erlebnis sammeln
+   - Bugs, Missbrauch, Edge Cases testen (falsche Matches, Troll-Eingaben)
+
+7. **Marketing-Vorbereitung**
+   - TikTok-Account starten
+   - Content-Plan: Trends, Storytelling rund um "magische Zufälle"
+   - Website oder Landingpage bauen mit Infos zur App
+
+8. **Launch & Weiterentwicklung**
+   - MVP veröffentlichen (Web-PWA)
+   - Nutzung beobachten & analysieren (Analytics einbauen)
+   - Mobile App (React Native oder Expo Wrapper)
+   - Premium-Features / Monetarisierung testen
