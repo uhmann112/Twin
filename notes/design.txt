@@ -1,0 +1,10 @@
+| Zweck                | Tailwind-Farbe      | Beschreibung                                  |
+|----------------------|---------------------|-----------------------------------------------|
+| **Hintergrund**      | `bg-gray-950`       | Tiefdunkel, fast schwarz – für nächtliche Stimmung |
+| **Primärfarbe**      | `indigo-500`        | Magisch, geheimnisvoll                        |
+| **Akzentfarbe**      | `purple-400`        | Verleiht Glanz und leichtes Leuchten          |
+| **Sekundär-Akzent**  | `rose-400`          | Emotional, zart, sorgt für menschliche Wärme  |
+| **Text (normal)**    | `text-gray-100`     | Gut lesbar auf dunklem Hintergrund            |
+| **Text (weich)**     | `text-gray-400`     | Für sekundäre Texte, z. B. Hinweise            |
+| **Twin-Match-Highlight** | `cyan-300`     | Für leuchtenden Effekt bei Matches            |
+| **Feine Rahmen / Glow** | `ring-indigo-300` | Für subtile Umrandungen oder Interaktionen    |
